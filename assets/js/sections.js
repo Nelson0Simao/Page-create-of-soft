@@ -1,0 +1,2 @@
+const r=(e,t)=>e<=t,h=(e,t)=>{const n=window.pageYOffset,a=window.innerWidth;return r(a,e)?w(n,t.mobile):c(n,t.desktop)},w=(e,t)=>e>=t.whatWeDo&&e<t.contact?"what-we-do":e>=t.contact?"contact":"",c=(e,t)=>e>=t.whoWeAre&&e<t.whatWeDo?"who-we-are":e>=t.whatWeDo&&e<t.technologies?"what-we-do":e>=t.technologies&&e<t.team?"technologies":e>=t.team&&e<t.contact?"team":e>=t.contact?"contact":"";export{h as g};
+//# sourceMappingURL=sections.2ddaa2b1.js.map

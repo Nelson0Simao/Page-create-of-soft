@@ -1,0 +1,2 @@
+import{j as o}from"./jquery.js";const i=e=>o.each(e,(n,t)=>{const a=o(t),s=a.data("analytics");a.on(s.event,()=>c(s))}),r=e=>gtag("config","UA-25625858-1",{page_title:"Codeminer42",page_path:e}),c=({action:e,category:n,label:t})=>gtag("event",e,{event_category:n,event_label:t});export{r as a,i as s};
+//# sourceMappingURL=events.c136cc79.js.map

@@ -1,0 +1,197 @@
+@import url('./normalize.css');
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow", sans-serif;
+    overflow-x: hidden
+}
+
+h1 {
+    font-family: "Barlow-BoldItalic", sans-serif;
+    font-size: 48px;
+    color: #2c2d2d;
+    letter-spacing: 2px
+}
+
+h2 {
+    font-family: "Barlow-BoldItalic", sans-serif;
+    font-size: 48px;
+    color: #2e31a6;
+    line-height: 50px
+}
+
+h3 {
+    font-family: "Barlow-SemiBoldItalic", sans-serif;
+    font-size: 30px;
+    color: #e95659;
+    line-height: 40px
+}
+
+h4 {
+    font-family: "Barlow-SemiBold", sans-serif;
+    font-size: 26px;
+    color: #2c2d2d;
+    line-height: 40px
+}
+
+h5 {
+    font-family: "Barlow-Bold", sans-serif;
+    font-size: 17px;
+    color: #2e31a6;
+    line-height: 22px
+}
+
+p {
+    font-family: "Barlow-Regular", sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 24px
+}
+
+ul {
+    -webkit-margin-start: -1em;
+    margin-inline-start: -1em
+}
+
+button {
+    cursor: pointer;
+    font-family: "Barlow-Bold", sans-serif;
+    width: auto;
+    font-size: 13px;
+    height: 22px;
+    border-radius: 18px;
+    color: #f7f8fc;
+    background-color: #e95659;
+    border: none;
+    text-transform: uppercase;
+    padding: 0 25px 0 25px;
+    font-weight: 900
+}
+
+button:hover {
+    background-color: #ef7d80
+}
+
+button:active {
+    background-color: #d63c3f
+}
+
+button:focus {
+    outline: 0;
+    background: #d63c3f
+}
+
+input {
+    color: #333;
+    font-size: 16px;
+    border: none;
+    border-bottom: solid 1px #2e31a6;
+    height: 12px;
+    display: block;
+    outline: none;
+    padding: 10px 0 8px 0;
+    background: transparent;
+    width: 100%
+}
+
+input:hover {
+    outline: none
+}
+
+input:focus {
+    color: #333;
+    outline: none
+}
+
+input:invalid {
+    box-shadow: none
+}
+
+input[type="file"] {
+    border: none;
+    color: transparent
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden
+}
+
+input[type="file"]::before {
+    content: "Upload files";
+    background: transparent;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #333;
+    width: 100%;
+    text-align: center;
+    font-size: 10pt;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+select {
+    color: #333;
+    font-size: 16px;
+    border: none;
+    border-bottom: solid 1px #2e31a6;
+    display: block;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    margin: 4px 0;
+    height: 28px
+}
+
+select:hover {
+    outline: none
+}
+
+select:focus {
+    color: #333;
+    outline: none
+}
+
+select:invalid {
+    box-shadow: none
+}
+
+textarea {
+    height: 87%;
+    border: none;
+    font-size: 17px;
+    color: #333;
+    text-indent: 0;
+    resize: none;
+    border-bottom: solid 1px #2e31a6;
+    display: block;
+    background: transparent;
+    width: 100%;
+    padding: 6px 0 0 0
+}
+
+textarea:hover {
+    outline: none
+}
+
+textarea:focus {
+    color: #333;
+    outline: none
+}
+
+textarea:invalid {
+    box-shadow: none
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden
+}
